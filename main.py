@@ -1,9 +1,5 @@
 from functions import fetch_todos, write_todos
-import time
 prompt = "Type add or show or edit or done or exit: "
-print("The time is below")
-now = time.strftime("%d-%B-%Y %H:%M:%S")
-print("It is", now)
 
 while True:
     user_action = input(prompt).strip()
